@@ -2,6 +2,7 @@ runners:
   - name: "azure-runner"
     # Cloud Provider: Azure
     cloud: "azure"
+    preemptible: true
     region: "westus3"
     instance_type: "Standard_D2s_v5"
     machine_image: "Canonical:UbuntuServer:18.04-LTS:latest"
