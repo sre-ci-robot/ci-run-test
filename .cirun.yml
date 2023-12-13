@@ -4,7 +4,7 @@ runners:
     cloud: "azure"
     region: "westus3"
     instance_type: "Standard_D2s_v5"
-    machine_image: "Canonical:UbuntuServer:20.04-LTS:latest"
+    machine_image: "Canonical:UbuntuServer:18.04-LTS:latest"
     labels:
       - "cirun-azure-runner"
 
