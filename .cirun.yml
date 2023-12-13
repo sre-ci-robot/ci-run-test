@@ -1,0 +1,7 @@
+runners:
+  - name: "azure-runner"
+    # Cloud Provider: Azure
+    cloud: "azure"
+    region: "westus3"
+    instance_type: "Standard_D2s_v5"
+    machine_image: "Canonical:UbuntuServer:20.04-LTS:latest"
